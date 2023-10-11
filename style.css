@@ -1,0 +1,102 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+input {
+    padding: 10px;
+
+}
+
+.form {
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+.password {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.password img {
+    width: 20px;
+    border: 1px solid;
+    padding: 10px;
+    height: 15px;
+    border-left: none;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.password img:active {
+    transform: skewX(2deg)
+}
+
+.password .div1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.password input {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    height: 55vh;
+    border: 1px solid;
+}
+
+#pass1 {
+    border: 1px solid;
+    border-right: none;
+    margin-right: 0px;
+    width: 80%;
+}
+
+button {
+    width: 70%;
+    align-self: center;
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+span {
+    color: red;
+    /* margin-top: 0px; */
+    margin-left: 10px;
+}
+
+.flex_col {
+    display: flex;
+    flex-direction: column;
+}
+
+.m10 {
+    margin: 6px;
+}
+
+.flex_row {
+    display: flex;
+    flex-direction: row;
+}
+
+#para {
+    align-self: center;
+    margin-top: 5px;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <body>
+        <div class="form">
+            <form action="" onsubmit="submit_form(event)">
+                <div class="full_name flex_row">
+                    <div class="flex_col m10">
+                        <input type="text" placeholder="First Name" class="inpt" id="fname">
+                        <span></span>
+                    </div>
+                    <div class="flex_col m10">
+                        <input type="text" placeholder="Last Name" class="inpt" id="lname">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="contact flex_row">
+                    <div class="flex_col m10">
+                        <input type="text" placeholder="Phone Number" class="inpt" id="num">
+                        <span></span>
+                    </div>
+                    <div class="flex_col m10">
+                        <input type="text" placeholder="Email Address" class="inpt" id="email">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="password">
+                    <div class="div1"><input type="text" placeholder="Generate Password" id="pass1"><img
+                            src="ques mark.png" alt="icon" id="pass_btn" onclick="random_pass()"></div>
+
+                    <div class="flex_col">
+                        <input type="text" placeholder="Confirm Password" id="pass2" onblur="isPassValid(event)">
+                        <span></span>
+                    </div>
+                </div>
+
+                <button type="submit">Submit</button>
+                <p id="para"></p>
+
+            </form>
+        </div>
+
+
+
+        <script src="script.js"></script>
+    </body>
+
+</html>
